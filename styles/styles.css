@@ -1,0 +1,257 @@
+
+/* Metre les polices d'écriture */
+@font-face {
+    font-family: 'sf_arch_rival_extendedregular';
+    src: url('/polices/sfarchrivalextended_regular_macroman/SF_Arch_Rival_Extended-webfont.eot');
+    src: url('/polices/sfarchrivalextended_regular_macroman/SF_Arch_Rival_Extended-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/polices/sfarchrivalextended_regular_macroman/SF_Arch_Rival_Extended-webfont.woff2') format('woff2'),
+         url('/polices/sfarchrivalextended_regular_macroman/SF_Arch_Rival_Extended-webfontwoff') format('woff'),
+         url('/polices/sfarchrivalextended_regular_macroman/SF_Arch_Rival_Extended-webfont.ttf') format('truetype'),
+         url('/polices/sfarchrivalextended_regular_macroman/SF_Arch_Rival_Extended-webfont.svg#sf_arch_rival_extendedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ambleregular';
+    src: url('/polices/amble_regular_macroman/Amble-Regular-webfont.eot');
+    src: url('/polices/amble_regular_macroman/Amble-Regular-webfont.eot#iefix') format('embedded-opentype'),
+         url('/polices/amble_regular_macroman/Amble-Regular-webfont.woff2') format('woff2'),
+         url('/polices/amble_regular_macroman/Amble-Regular-webfont.woff') format('woff'),
+         url('/polices/amble_regular_macroman/Amble-Regular-webfont.ttf') format('truetype'),
+         url('/polices/amble_regular_macroman/Amble-Regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Changer les principaux styles de la page*/
+
+body {
+    background-color: #dfc893;
+    color: #181818;
+    background: url(/images/image\ background.jpg) fixed 95em;
+}
+
+#bloc_page {
+    width: 900px;
+    margin: auto;
+}
+
+/* Fair le header de la page */
+ 
+header {
+    background: url('/images/separateur.png') repeat-x bottom ;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: rgba(224, 62, 62, 0.856);
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+#logo {
+    display: flex;
+    align-items: baseline;
+}
+
+#titre_principal {
+    font-family: "sf_arch_rival_extendedregular";
+}
+
+#logo img {
+    width: 70px;
+    height: 70px;
+}
+
+header h1 {
+    font-size: 2.3em;
+    margin-bottom: 0px;
+}
+
+header h2 {
+    margin-top: 0px;
+}
+
+/* naviguation */
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav li {
+    margin-left: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    padding-bottom: 3px;
+    
+}
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #063f5a;
+    border-bottom: 3px solid #120076;
+}
+
+/* section de larticle et aside */
+
+section {
+    display: flex;
+    text-align: justify;
+    background-color: #b16430;
+    box-shadow: 0px 8px 18px black;
+    border-radius: 20px;
+    position: relative;
+}
+
+.imgage-grahique{
+    width: 40em;
+    height: 27em;
+    margin: 50px 120px;
+}
+
+article h1 {
+    font-size: 1.8em;
+}
+
+
+/* Corps */
+
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+section p{
+    font-size: 1.7em;
+}
+
+article, aside
+{
+    text-align: justify;
+}
+
+article h1 {
+    text-align: center;
+    margin-left: 50px;
+}
+
+article
+{
+    margin-right: 20px;
+    width: 1065460em;
+}
+
+.ico_categorie
+{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+aside
+{
+    position: absolute;
+    background-color:  rgba(224, 62, 62, 0.835);
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+    right: 210px;
+    top: 120px;  
+}
+
+#fleche_bulle
+{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+
+#photo_zozor img
+{
+    border: 1px solid #181818;
+}
+
+aside img
+{
+    margin-right: 5px;
+    margin-left: 4px;
+}
+#fleche_bulle {
+    position: absolute;
+    left: -16px;
+    top: 110px;
+
+}
+aside img {
+    margin-left: 5px;
+}
+.choix {
+    background-color: rgb(31, 136, 185);
+    border-radius: 8px;
+    font-size: 2.45em;
+    margin-left: 9em;
+}
+
+/* fair le pied de page */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background: url(/images/ico_top.png) no-repeat top, url('/images/separateur.png') repeat-x top;
+    background-color: rgba(224, 62, 62, 0.87);
+    width: 40em;
+    height: 11em;
+    border-radius: 50px;
+    font-size: 1em;
+    padding: 0px;
+    text-align: center;
+    margin-left: 102px;
+}
+
+#mes_photos img {
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+#mes_amis ul{
+    padding-left: 2px;
+}
+
+#listes_amis{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+#listes_amis ul {
+    margin-left: 10px;
+    list-style-type: none;
+    list-style-image: url('images/ico_liensexterne.png');
+}
